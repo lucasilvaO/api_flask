@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Definindo o endereço do banco (local ou Atlas)
 # Para conectar ao MongoDB Atlas, use a linha abaixo e substitua pelas suas credenciais
-# app.config["MONGO_URI"] = "mongodb+srv://123zebob321:zebob123@cluster0.uil4p.mongodb.net/api_loreLTHR?retryWrites=true&w=majority"
+# app.config["MONGO_URI"] = "mongodb+srv://123zebob321:zebob123@cluster0.uil4p.mongodb.net/api_loreLTHR?retryWrites=true&w=majority"'
 
 # Para conectar ao MongoDB local
 app.config["MONGO_URI"] = 'mongodb://localhost:27017/api_loreLTHR'
